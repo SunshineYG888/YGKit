@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18A140B51CDD6D1100AEFAB2 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A140B11CDD6D1100AEFAB2 /* UIImage+Extension.m */; };
+		18A140B61CDD6D1100AEFAB2 /* YGAudioTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A140B41CDD6D1100AEFAB2 /* YGAudioTool.m */; };
 		E4D6DE701CD81BB4006E1B08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D6DE6F1CD81BB4006E1B08 /* main.m */; };
 		E4D6DE731CD81BB4006E1B08 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D6DE721CD81BB4006E1B08 /* AppDelegate.m */; };
 		E4D6DE761CD81BB5006E1B08 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D6DE751CD81BB5006E1B08 /* ViewController.m */; };
@@ -14,10 +16,14 @@
 		E4D6DE7C1CD81BB5006E1B08 /* YGKit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E4D6DE7A1CD81BB5006E1B08 /* YGKit.xcdatamodeld */; };
 		E4D6DE7E1CD81BB5006E1B08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4D6DE7D1CD81BB5006E1B08 /* Assets.xcassets */; };
 		E4D6DE811CD81BB5006E1B08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4D6DE7F1CD81BB5006E1B08 /* LaunchScreen.storyboard */; };
-		E4D6DE8B1CD81C1F006E1B08 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D6DE8A1CD81C1F006E1B08 /* UIImage+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18A140B01CDD6D1100AEFAB2 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		18A140B11CDD6D1100AEFAB2 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		18A140B31CDD6D1100AEFAB2 /* YGAudioTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGAudioTool.h; sourceTree = "<group>"; };
+		18A140B41CDD6D1100AEFAB2 /* YGAudioTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGAudioTool.m; sourceTree = "<group>"; };
+		18A140B71CDD6D3F00AEFAB2 /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
 		E4D6DE6B1CD81BB3006E1B08 /* YGKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YGKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4D6DE6F1CD81BB4006E1B08 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E4D6DE711CD81BB4006E1B08 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -29,8 +35,6 @@
 		E4D6DE7D1CD81BB5006E1B08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4D6DE801CD81BB5006E1B08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E4D6DE821CD81BB5006E1B08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E4D6DE891CD81C1F006E1B08 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
-		E4D6DE8A1CD81C1F006E1B08 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +48,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18A140AE1CDD6D1100AEFAB2 /* YGKit */ = {
+			isa = PBXGroup;
+			children = (
+				18A140B71CDD6D3F00AEFAB2 /* Singleton.h */,
+				18A140AF1CDD6D1100AEFAB2 /* Extension */,
+				18A140B21CDD6D1100AEFAB2 /* Tools */,
+			);
+			path = YGKit;
+			sourceTree = "<group>";
+		};
+		18A140AF1CDD6D1100AEFAB2 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				18A140B01CDD6D1100AEFAB2 /* UIImage+Extension.h */,
+				18A140B11CDD6D1100AEFAB2 /* UIImage+Extension.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		18A140B21CDD6D1100AEFAB2 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				18A140B31CDD6D1100AEFAB2 /* YGAudioTool.h */,
+				18A140B41CDD6D1100AEFAB2 /* YGAudioTool.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
 		E4D6DE621CD81BB3006E1B08 = {
 			isa = PBXGroup;
 			children = (
@@ -63,7 +95,7 @@
 		E4D6DE6D1CD81BB3006E1B08 /* YGKit */ = {
 			isa = PBXGroup;
 			children = (
-				E4D6DE881CD81C1F006E1B08 /* Tools */,
+				18A140AE1CDD6D1100AEFAB2 /* YGKit */,
 				E4D6DE711CD81BB4006E1B08 /* AppDelegate.h */,
 				E4D6DE721CD81BB4006E1B08 /* AppDelegate.m */,
 				E4D6DE741CD81BB5006E1B08 /* ViewController.h */,
@@ -84,15 +116,6 @@
 				E4D6DE6F1CD81BB4006E1B08 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		E4D6DE881CD81C1F006E1B08 /* Tools */ = {
-			isa = PBXGroup;
-			children = (
-				E4D6DE891CD81C1F006E1B08 /* UIImage+Extension.h */,
-				E4D6DE8A1CD81C1F006E1B08 /* UIImage+Extension.m */,
-			);
-			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,10 +189,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4D6DE8B1CD81C1F006E1B08 /* UIImage+Extension.m in Sources */,
+				18A140B51CDD6D1100AEFAB2 /* UIImage+Extension.m in Sources */,
 				E4D6DE761CD81BB5006E1B08 /* ViewController.m in Sources */,
 				E4D6DE731CD81BB4006E1B08 /* AppDelegate.m in Sources */,
 				E4D6DE7C1CD81BB5006E1B08 /* YGKit.xcdatamodeld in Sources */,
+				18A140B61CDD6D1100AEFAB2 /* YGAudioTool.m in Sources */,
 				E4D6DE701CD81BB4006E1B08 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -317,6 +341,7 @@
 				E4D6DE871CD81BB5006E1B08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
