@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		18A140B51CDD6D1100AEFAB2 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A140B11CDD6D1100AEFAB2 /* UIImage+Extension.m */; };
 		18A140B61CDD6D1100AEFAB2 /* YGAudioTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A140B41CDD6D1100AEFAB2 /* YGAudioTool.m */; };
+		E41924CF1CDFC3330044C8DA /* NSArray+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E41924CC1CDFC3330044C8DA /* NSArray+Extension.m */; };
+		E41924D01CDFC3330044C8DA /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E41924CE1CDFC3330044C8DA /* UIImage+Extension.m */; };
 		E4D6DE701CD81BB4006E1B08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D6DE6F1CD81BB4006E1B08 /* main.m */; };
 		E4D6DE731CD81BB4006E1B08 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D6DE721CD81BB4006E1B08 /* AppDelegate.m */; };
 		E4D6DE761CD81BB5006E1B08 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D6DE751CD81BB5006E1B08 /* ViewController.m */; };
@@ -19,11 +20,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		18A140B01CDD6D1100AEFAB2 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
-		18A140B11CDD6D1100AEFAB2 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
 		18A140B31CDD6D1100AEFAB2 /* YGAudioTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGAudioTool.h; sourceTree = "<group>"; };
 		18A140B41CDD6D1100AEFAB2 /* YGAudioTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGAudioTool.m; sourceTree = "<group>"; };
 		18A140B71CDD6D3F00AEFAB2 /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		E41924CB1CDFC3330044C8DA /* NSArray+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Extension.h"; sourceTree = "<group>"; };
+		E41924CC1CDFC3330044C8DA /* NSArray+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Extension.m"; sourceTree = "<group>"; };
+		E41924CD1CDFC3330044C8DA /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		E41924CE1CDFC3330044C8DA /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
 		E4D6DE6B1CD81BB3006E1B08 /* YGKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YGKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4D6DE6F1CD81BB4006E1B08 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E4D6DE711CD81BB4006E1B08 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -52,19 +55,10 @@
 			isa = PBXGroup;
 			children = (
 				18A140B71CDD6D3F00AEFAB2 /* Singleton.h */,
-				18A140AF1CDD6D1100AEFAB2 /* Extension */,
+				E41924CA1CDFC3330044C8DA /* Extension */,
 				18A140B21CDD6D1100AEFAB2 /* Tools */,
 			);
 			path = YGKit;
-			sourceTree = "<group>";
-		};
-		18A140AF1CDD6D1100AEFAB2 /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-				18A140B01CDD6D1100AEFAB2 /* UIImage+Extension.h */,
-				18A140B11CDD6D1100AEFAB2 /* UIImage+Extension.m */,
-			);
-			path = Extension;
 			sourceTree = "<group>";
 		};
 		18A140B21CDD6D1100AEFAB2 /* Tools */ = {
@@ -74,6 +68,17 @@
 				18A140B41CDD6D1100AEFAB2 /* YGAudioTool.m */,
 			);
 			path = Tools;
+			sourceTree = "<group>";
+		};
+		E41924CA1CDFC3330044C8DA /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E41924CB1CDFC3330044C8DA /* NSArray+Extension.h */,
+				E41924CC1CDFC3330044C8DA /* NSArray+Extension.m */,
+				E41924CD1CDFC3330044C8DA /* UIImage+Extension.h */,
+				E41924CE1CDFC3330044C8DA /* UIImage+Extension.m */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		E4D6DE621CD81BB3006E1B08 = {
@@ -189,7 +194,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18A140B51CDD6D1100AEFAB2 /* UIImage+Extension.m in Sources */,
+				E41924CF1CDFC3330044C8DA /* NSArray+Extension.m in Sources */,
+				E41924D01CDFC3330044C8DA /* UIImage+Extension.m in Sources */,
 				E4D6DE761CD81BB5006E1B08 /* ViewController.m in Sources */,
 				E4D6DE731CD81BB4006E1B08 /* AppDelegate.m in Sources */,
 				E4D6DE7C1CD81BB5006E1B08 /* YGKit.xcdatamodeld in Sources */,
