@@ -10,6 +10,7 @@
 		18A140B61CDD6D1100AEFAB2 /* YGAudioTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A140B41CDD6D1100AEFAB2 /* YGAudioTool.m */; };
 		E41924CF1CDFC3330044C8DA /* NSArray+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E41924CC1CDFC3330044C8DA /* NSArray+Extension.m */; };
 		E41924D01CDFC3330044C8DA /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E41924CE1CDFC3330044C8DA /* UIImage+Extension.m */; };
+		E47CC0C21CE1588B00AD2807 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E47CC0C11CE1588B00AD2807 /* UIColor+Extension.m */; };
 		E4D6DE701CD81BB4006E1B08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D6DE6F1CD81BB4006E1B08 /* main.m */; };
 		E4D6DE731CD81BB4006E1B08 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D6DE721CD81BB4006E1B08 /* AppDelegate.m */; };
 		E4D6DE761CD81BB5006E1B08 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D6DE751CD81BB5006E1B08 /* ViewController.m */; };
@@ -27,6 +28,8 @@
 		E41924CC1CDFC3330044C8DA /* NSArray+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Extension.m"; sourceTree = "<group>"; };
 		E41924CD1CDFC3330044C8DA /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
 		E41924CE1CDFC3330044C8DA /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		E47CC0C01CE1588B00AD2807 /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
+		E47CC0C11CE1588B00AD2807 /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
 		E4D6DE6B1CD81BB3006E1B08 /* YGKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YGKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4D6DE6F1CD81BB4006E1B08 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E4D6DE711CD81BB4006E1B08 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -75,6 +78,8 @@
 			children = (
 				E41924CB1CDFC3330044C8DA /* NSArray+Extension.h */,
 				E41924CC1CDFC3330044C8DA /* NSArray+Extension.m */,
+				E47CC0C01CE1588B00AD2807 /* UIColor+Extension.h */,
+				E47CC0C11CE1588B00AD2807 /* UIColor+Extension.m */,
 				E41924CD1CDFC3330044C8DA /* UIImage+Extension.h */,
 				E41924CE1CDFC3330044C8DA /* UIImage+Extension.m */,
 			);
@@ -197,6 +202,7 @@
 				E41924CF1CDFC3330044C8DA /* NSArray+Extension.m in Sources */,
 				E41924D01CDFC3330044C8DA /* UIImage+Extension.m in Sources */,
 				E4D6DE761CD81BB5006E1B08 /* ViewController.m in Sources */,
+				E47CC0C21CE1588B00AD2807 /* UIColor+Extension.m in Sources */,
 				E4D6DE731CD81BB4006E1B08 /* AppDelegate.m in Sources */,
 				E4D6DE7C1CD81BB5006E1B08 /* YGKit.xcdatamodeld in Sources */,
 				18A140B61CDD6D1100AEFAB2 /* YGAudioTool.m in Sources */,
